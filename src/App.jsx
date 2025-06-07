@@ -45,9 +45,9 @@ const App = () => {
             <div className='mt-6 flex space-x-30'>
               <div className='text-sm flex flex-col relative text-gray-800'>
                 <label className='absolute bottom-19 left-0 text-xl text-black mt-2 mb-1 '>libs</label>
-                <a href="https:/react.dev/index/">react</a>
-                <a href="https:/tailwindcss.com/">tailwind</a>
-                <a href="https:/ui.aceternity.com/">aceternity</a>
+                <a href="https://react.dev/">react</a>
+                <a href="https://tailwindcss.com/">tailwind</a>
+                <a href="https://ui.aceternity.com/">aceternity</a>
                 <a href="https://ui.shadcn.com/docs/components">shadcn</a>
               </div>
               <div className='text-sm flex flex-col relative text-gray-800'>
