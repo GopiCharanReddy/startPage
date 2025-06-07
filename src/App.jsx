@@ -39,7 +39,7 @@ const App = () => {
                 <a href="https:/github.com/">github</a>
                 <a href="https:/chatgpt.com/">chatGPT</a>
                 <a href="https:/bhindi.io/">bhindiAi</a>
-                <a href="https:/coolify.io/">coolify</a>
+                <a href="https://stackoverflow.com/">stackoverflow</a>
               </div>
             </div>
             <div className='mt-6 flex space-x-30'>
