@@ -54,7 +54,7 @@ const App = () => {
                 <label className='absolute bottom-19 left-0 text-xl text-black mt-2 mb-1 '>booster</label>
                 <a href="https://areyoulocked.in/">areyoulockedin</a>
                 <a href="https://forkyou.dev/leaderboard">forkyou</a>
-                <a href="https://x.com/Spikey_twt">sex</a>
+                {/* <a href="https://x.com/Spikey_twt">sex</a> */}
               </div>
             </div>
             <div>
