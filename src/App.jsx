@@ -36,9 +36,9 @@ const App = () => {
               </div>
               <div className='text-sm flex flex-col relative text-gray-800'>
                 <label className='absolute bottom-19 left-0 text-xl text-black mt-2 mb-1 '>tools</label>
-                <a href="https:/github.com/">github</a>
-                <a href="https:/chatgpt.com/">chatGPT</a>
-                <a href="https:/bhindi.io/">bhindiAi</a>
+                <a href="https://github.com/">github</a>
+                <a href="https://chatgpt.com/">chatGPT</a>
+                <a href="https://bhindi.io/">bhindiAi</a>
                 <a href="https://stackoverflow.com/">stackoverflow</a>
               </div>
             </div>
