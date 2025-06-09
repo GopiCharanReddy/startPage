@@ -8,12 +8,12 @@ const App = () => {
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * startPageData.length)
-    setCurrentTheme(startPageData[randomIndex])
+    setCurrentTheme(startPageData[9])
   }, []);
 
   if (!currentTheme) {
     return (
-      <div className='h-screen flex justify-center items-center bg-[#323232]'>Loading...</div>
+      <div className='h-screen flex justify-center items-center bg-white'>Loading...</div>
     )
   }
   const { image, bgColor, boxColor, borderColor, headingColor, siteTextColor, headingStrokeColor,} = currentTheme;
