@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * startPageData.length)
-    setCurrentTheme(startPageData[8])
+    setCurrentTheme(startPageData[randomIndex])
   }, []);
 
   if (!currentTheme) {
