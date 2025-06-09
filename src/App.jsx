@@ -43,7 +43,7 @@ const App = () => {
             <div className='m-0 pb-3 leading-none underline underline-offset-8 [text-decoration-thickness:0.25rem] text-[2rem] tracking-[0.5rem]' style={{ color: headingColor,WebkitTextStroke: `2px ${headingStrokeColor}`}}>たたかえ</div>
             <div className='flex flex-col space-y-3'>
 
-              <div className='mt-6 flex space-x-10'>
+              <div className='mt-6 flex space-x-20'>
                 <div className='text-sm flex flex-col relative top-2'>
                   <label className='absolute font-[500] tracking-wide  bottom-21 text-xl  mb-1' style={{ color: headingColor }}>apps</label>
                   <a href="https://youtube.com/" style={{ color: siteTextColor }}>youtube</a>
@@ -59,7 +59,7 @@ const App = () => {
                   <a href="https://stackoverflow.com/" style={{ color: siteTextColor }}>stackoverflow</a>
                 </div>
               </div>
-              <div className='mt-4 flex space-x-10'>
+              <div className='mt-4 flex space-x-20'>
                 <div className='text-sm flex flex-col relative top-2 '>
                   <label className='absolute font-[500] tracking-wide  bottom-21  text-xl mt-2 mb-1' style={{ color: headingColor }}>libs</label>
                   <a href="https://react.dev/" style={{ color: siteTextColor }}>react</a>
