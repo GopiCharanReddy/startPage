@@ -21,13 +21,13 @@ const App = () => {
   return (
     <>
       <div className='h-screen flex justify-center items-center relative' style={{ backgroundColor: bgColor }}>
-        <div className='shadow-[10px_10px_35px_rgba(0,0,0,0.3)] p-4 rounded-xl flex space-x-6' style={{ backgroundColor: boxColor }}>
+        <div className='shadow-[10px_10px_35px_rgba(0,0,0,0.3)] p-4 rounded-xl flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6' style={{ backgroundColor: boxColor }}>
           <div>
             <div className='border-4' style={{ borderColor: borderColor }}>
-              <img className='w-86 h-54 p-1' src={image} alt="image" />
+              <img className='w-86 h-52 p-1' src={image} alt="image" />
             </div>
-            <form action="https://search.brave.com/search?q=" className='relative  border-gray-500 transition-colors duration-200 rounded-sm  border-2 mt-4' style={{ borderColor: borderColor, }}>
-              <input className={`w-80 p-2 focus:bg-[${focusColor}] focus:outline-none transition-colors duration-200`} autoFocus type="search" name='q' aria-label='Seach for something on Brave' placeholder='Search on Brave...' />
+            <form action="https://search.brave.com/search?q=" className='relative w-full sm:w-80 lg:w-full transition-colors duration-200 rounded-sm  border-2 mt-4' style={{ borderColor: borderColor, }}>
+              <input className={`w-full p-2 focus:outline-none transition-colors duration-200`} style={{borderColor: focusColor}} autoFocus type="search" name='q' aria-label='Seach for something on Brave' placeholder='Search on Brave...' />
               <button type='submit' className={`absolute  right-0 top-1/2 -translate-y-1/2 p-2 hover:bg-${focusColor} hover:text-black hover:cursor-pointer text-white`}>
                 <span>
                   <svg className='w-6 h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
@@ -71,7 +71,7 @@ const App = () => {
                   <label className='absolute font-[500] tracking-wide  bottom-21  text-xl mb-1' style={{ color: headingColor }}>booster</label>
                   <a style={{ color: siteTextColor }} href="https://areyoulocked.in/">areyoulockedin</a>
                   <a style={{ color: siteTextColor }} href="https://forkyou.dev/leaderboard">forkyou</a>
-                  <a style={{ color: siteTextColor }} href="https://x.com/Spikey_twt">sex</a>
+                  <a style={{ color: siteTextColor }} href="">sex</a>
                 </div>
               </div>
               <div>

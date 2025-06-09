@@ -7,7 +7,7 @@ const startPageData = [
     borderColor: "#6a7282",
     // textColor: "#aaaaaa",
     siteTextColor: 'black',
-    headingStrokeColor: '#A0D2E7',
+    headingStrokeColor: '#000000',
   },
   {
     image: "/image-2.jpg",
