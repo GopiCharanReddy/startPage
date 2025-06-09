@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * startPageData.length)
-    setCurrentTheme(startPageData[6])
+    setCurrentTheme(startPageData[randomIndex])
   }, []);
 
   if (!currentTheme) {
@@ -71,7 +71,7 @@ const App = () => {
                   <label className='absolute font-[500] tracking-wide  bottom-21  text-xl mb-1' style={{ color: headingColor }}>booster</label>
                   <a style={{ color: siteTextColor }} href="https://areyoulocked.in/">areyoulockedin</a>
                   <a style={{ color: siteTextColor }} href="https://forkyou.dev/leaderboard">forkyou</a>
-                  <a style={{ color: siteTextColor }} href="">sex</a>
+                  <a style={{ color: siteTextColor }} href="https://x.com/Spikey_twt">sex</a>
                 </div>
               </div>
               <div>
