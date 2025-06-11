@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import startPageData from './startPageData.js';
 
-
 const App = () => {
 
   const [currentTheme, setCurrentTheme] = useState(null);
@@ -65,13 +64,13 @@ const App = () => {
                   <a href="https://react.dev/" style={{ color: siteTextColor }}>react</a>
                   <a href="https://tailwindcss.com/" style={{ color: siteTextColor }}>tailwind</a>
                   <a style={{ color: siteTextColor }} href="https://ui.aceternity.com/">aceternity</a>
-                  <a style={{ color: siteTextColor }} href="https://ui.shadcn.com/docs/components">shadcn</a>
+                  <a style={{ color: siteTextColor }} href="https://motion.dev/docs/react-animation">motion</a>
                 </div>
                 <div className='text-sm flex flex-col relative top-2 '>
                   <label className='absolute font-[500] tracking-wide  bottom-21  text-xl mb-1' style={{ color: headingColor }}>prod</label>
+                  <a style={{ color: siteTextColor }} href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/">dsa</a>
                   <a style={{ color: siteTextColor }} href="https://areyoulocked.in/">areyoulockedin</a>
                   <a style={{ color: siteTextColor }} href="https://forkyou.dev/leaderboard">forkyou</a>
-                  <a style={{ color: siteTextColor }} href="https://x.com/Spikey_twt">sex</a>
                 </div>
               </div>
               <div>
